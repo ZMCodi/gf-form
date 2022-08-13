@@ -1,0 +1,58 @@
+body {
+    padding: 20px;
+    background-image: url(https://st4.depositphotos.com/9223672/38792/v/950/depositphotos_387928194-stock-illustration-simple-red-heart-seamless-pattern.jpg?forcejpeg=true);
+    font-family: Consolas;
+  }
+  form, header {
+    background-color: pink;
+    width: 90%;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+  form {
+    padding-bottom: 1.5em;
+  }
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  .bigtitle {
+    margin: 5px;
+  }
+  header {
+    text-align: center;
+    padding: 1px
+  }
+  fieldset {
+    border: none;
+    border-bottom: solid #e36fb3;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 0;
+  }
+  input, textarea, select {
+    display: block;
+    width: 100%;
+  }
+  input[type='radio'], input[type='checkbox'] {
+    width: 10%;
+    display: inline-block;
+  }
+  select {
+    display: block;
+  }
+  fieldset:last-of-type {
+    border-bottom: none;
+    padding-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    height: 2em;
+    font-size: 16px;
+  }

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Girlfriend Form</title>
+  <link rel='stylesheet' href='Girlfriend Form.css' />
+</head>
+  <body>
+    <header>
+      <h1 id='title' class='bigtitle'>Girlfriend Form</h1>
+      <p id='description' class='bigtitle'>How much do you love your girlfriend?</p>
+    </header>
+    <form id='survey form'>
+      <fieldset id='personal info'>
+        <label id='name-label'>Name</label>
+        <input type='text' placeholder='Enter your name' id='name' required />
+        <label id='email-label'>Email</label>
+        <input type='email' id='email' placeholder='123@hotmail.com' required />
+        <label id='number-label'>Age (optional)</label>
+        <input type='number' id='number' placeholder='Enter your age' min='18' max='30'/>
+      </fieldset>
+      <fieldset>
+        <label>What is your girlfriend's love language?</label>
+        <select id='dropdown'>
+          <option value='none'>Select one</option>
+          <option value='WOA'>Words of Affirmation</option>
+          <option value='AOS'>Acts of Service</option>
+          <option value='RG'>Receiving Gifts</option>
+          <option value='QT'>Quality Time</option>
+          <option value='PT'>Physical Touch</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <label>What is your relationship proximity?</label>
+        <label>
+        <input type='radio' name='rship prox' value='shortdistance' />Short distance</label>
+        <label>
+          <input type='radio' name='rship prox' value='longdistance' />Long distance</label> 
+      </fieldset>
+      <fieldset>
+        <label>What have you done with your girlfriend so far?</label>
+        <label>
+        <input type='checkbox' value='Date' />Went on a date
+        </label>
+        <label>
+        <input type='checkbox' value='Flowers' />Gave her flowers
+        </label>
+        <label>
+        <input type='checkbox' value='Kiss' />Kiss her
+        </label>
+        <label>
+        <input type='checkbox' value='Parents' />Met her parents
+        </label>
+       </fieldset>
+      <fieldset>
+        <label>What do you love most about your girlfriend?</label>
+        <textarea rows='3' cols='50' placeholder="One thing I love the most about my girlfriend is..."></textarea>
+      </fieldset>
+      <input type='submit' value='Submit' id='submit' />
+    </form>
+  </body>
+</html>
